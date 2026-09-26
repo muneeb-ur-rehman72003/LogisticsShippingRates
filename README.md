@@ -1,19 +1,18 @@
-Please consider the below factors while contributing
+# Simple Interest Calculator
 
-Code Style:
-Maintain a consistent code style for readability.
+This repository contains a Bash script, `simple-interest.sh`, that calculates simple interest using a principal amount, annual interest rate, and time period in years.
 
-Documentation:
-Ensure well-documented code for effective collaboration.
+## Inputs
 
-Testing:
-Thoroughly test your changes before submitting a pull request.
+- Principal (P): Initial amount
+- Rate (R): Annual interest rate as a percentage
+- Time (T): Time in years
 
-Issue Tracker:
-Check the Issue Tracker for tasks.
+## Formula
 
-Code Review:
-All contributions undergo a code review process.
+Simple Interest = (P × R × T) / 100
 
-Licensing:
-Contributions are licensed.
+## How to run
+
+```bash
+bash simple-interest.sh
